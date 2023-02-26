@@ -279,7 +279,7 @@ Then contact me, let us work together to create something beautiful.</strong></p
         <a href="www.github.com/smartprincipal">
         <img src={Github} alt="Github Logo" className='contactImg'/>
         </a>
-        <a href="https://api.whatsapp.com/send?phone=08138187957">
+        <a href="https://api.whatsapp.com/send?phone=2348138187957">
         <img src={Whatsapp} alt="Whatsapp logo" className='contactImg'/>
         </a>
         <a href="https://twitter.com/HJorhnsin">
