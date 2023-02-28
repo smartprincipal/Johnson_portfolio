@@ -142,7 +142,7 @@ If you're interested in working together ,hire me or have any questions, feel fr
           <h1 className='companyName'>MBBPIL</h1>
           <p className='writeUp'>I implement user interface design and solve user problems with React.js. I collaborated with Backend designer to achieve the functionality</p>
 
-          <a href='www.mbbpil.vercel.app/' className='linkCarrier'>
+          <a href="http://www.mbbpil.vercel.app/" className='linkCarrier'>
           <p className='visitLink'> Visit Link</p>
           </a>
           <div className='frameWork'>
@@ -158,6 +158,7 @@ If you're interested in working together ,hire me or have any questions, feel fr
         <div className='imgBox'>
           <img src={MBB} alt="" className='boxImg'/>
           <img src={MBBM} alt="" className='boxImg2'/>
+          <a href="http://"></a>
 
         </div>
         </div>
@@ -168,7 +169,7 @@ If you're interested in working together ,hire me or have any questions, feel fr
           <h1 className='companyName'>Easy Rent</h1>
           <p className='writeUp'>I collaborated with team of front end developers, product designer, back end and product manager to design easy rent application with React.js.</p>
 
-          <a href='www.easy-rentt.vercel.app/' className='linkCarrier'>
+          <a href="https://www.easy-rentt.vercel.app/" className='linkCarrier'>
           <p className='visitLink'> Visit Link</p>
           </a>
           <div className='frameWork'>
@@ -194,7 +195,7 @@ If you're interested in working together ,hire me or have any questions, feel fr
           <h1 className='companyName'>Tom Purse</h1>
           <p className='writeUp'>I implement user interface design and solve user problems of financial banking with React.js.</p>
 
-          <a href='www.tomspurse.vercel.app/' className='linkCarrier'>
+          <a href="https://www.tomspurse.vercel.app/" className='linkCarrier'>
           <p className='visitLink'> Visit Link</p>
           </a>
           <div className='frameWork'>
@@ -221,7 +222,7 @@ If you're interested in working together ,hire me or have any questions, feel fr
           <h1 className='companyName'>Ehya</h1>
           <p className='writeUp'>I implement user interface design and solve user problems with HTML, CSS and Javascript.</p>
 
-          <a href='www.ehya.vercel.app/' className='linkCarrier'>
+          <a href="https://www.ehya.vercel.app/" className='linkCarrier'>
           <p className='visitLink'> Visit Link</p>
           </a>
           <div className='frameWork'>
@@ -248,7 +249,7 @@ If you're interested in working together ,hire me or have any questions, feel fr
           <h1 className='companyName'>Afrosound</h1>
           <p className='writeUp'>I implement user interface design and solve user problems with HTML and CSS.</p>
 
-          <a href='www.afrosound.vercel.app/' className='linkCarrier'>
+          <a href="https://www.afrosound.vercel.app/" className='linkCarrier'>
           <p className='visitLink'> Visit Link</p>
           </a>
           <div className='frameWork'>
