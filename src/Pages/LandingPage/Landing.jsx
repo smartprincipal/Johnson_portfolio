@@ -29,6 +29,7 @@ import Ehyamobile from '../../asset/Ehyamobile.PNG'
 import Tompursemobile from '../../asset/Tommobile.PNG'
 import Afromobile from '../../asset/Afromobile.PNG'
 import { Link } from 'react-router-dom'
+import Project from '../../Components/Project/Project'
 
 const Landing = () => {
 
@@ -36,7 +37,20 @@ const Landing = () => {
 const handleToggle = () => {
   return setToggle(prevToggle =>!prevToggle)
 }
+const logo =[
+Html , CSS3, Javascript, Reacts, Bootstrap,Mui, Github, Redux
+]
 
+const projectData =[
+  {id:0 , date:'Jan 2023', heading:'MBBPIL', text:'I implemented user interface design and solve user problems with React.js. I collaborated with Backend designer to achieve the functionality',  Link:"http://www.mbbpil.vercel.app/" ,stack1:'React', stack2:'CSS', stack3:'Html', img1:MBB, img2:MBBM },
+{id:1 , date:'Oct - Dec 2022', heading:'Easy Rent', text:'I collaborated with team of front end developers, product designer, back end and product manager to design easy rent application with React.js.',  Link:"https://www.easy-rentt.vercel.app/.app/" ,stack1:'React', stack2:'CSS', stack3:'Html', img1:Easyrent, img2:Easyrentmobile},
+
+{id:2 , date:'September 2022', heading:'Tom Purse', text:'I implemented user interface design and solve user problems of financial banking with React.js.',  Link:"https://www.tomspurse.vercel.app/" ,stack1:'React', stack2:'CSS', stack3:'Html', img1:Tompurse, img2:Tompursemobile},
+
+{id:3 , date:'August 2022', heading:'Ehya', text:'I implemented user interface design and solve user problems with HTML, CSS and Javascript.',  Link:"https://www.ehya.vercel.app/" ,stack1:'HTML', stack2:'CSS', stack3:'JavaScript', img1:Ehya, img2:Ehyamobile},
+
+{id:4 , date:'July 2022', heading:'Afrosound', text:'I implemented user interface design and solve user problems with HTML and CSS.',  Link:"https://www.afrosound.vercel.app/" ,stack1:'HTML', stack2:'CSS', img1:Afrosound, img2:Afromobile},
+]
   return (
     <div>
      <section className="heroSection">
@@ -87,17 +101,8 @@ const handleToggle = () => {
         <h2 className='workedStack'>Technology stack</h2>
        <p className='workedI'>I design, develop and create website with this toolkit</p>
        <div className="logos">
-         <img src={Html} alt="" className='imgSize'/>
-         <img src={CSS3} alt="" className='imgSize'/>
-         <img src={Javascript} alt="" className='imgSize'/>
-         <img src={Reacts} alt="" className='imgSize'/>
-         <img src={Bootstrap} alt="" className='imgSize'/>
-         <img src={Github} alt="" className='imgSize'/>
-         <img src={Mui} alt="" className='imgSize'/>
-         <img src={Redux} alt="" className='imgSize'/>
-
+        {logo.map(item=> <img src={item} alt={item} className='imgSize'/>)}
          <div>
-         {/* <img src={Ehya} alt="" /> */}
          </div>
        </div>
       </div>
@@ -136,138 +141,11 @@ If you're interested in working together ,hire me or have any questions, feel fr
         My Projects
       </h2>
 
-        <div className='projectWrap'>
-        <div className='projectBox'>
-          <h6 className='date'>Jan 2023</h6>
-          <h1 className='companyName'>MBBPIL</h1>
-          <p className='writeUp'>I implement user interface design and solve user problems with React.js. I collaborated with Backend designer to achieve the functionality</p>
-
-          <a href="http://www.mbbpil.vercel.app/" className='linkCarrier'>
-          <p className='visitLink'> Visit Link</p>
-          </a>
-          <div className='frameWork'>
-
-            <p className='workings'>React</p>
-            <p className='workings'>CSS</p>
-            <p className='workings'>JSX</p>
+      {projectData.map((item) => (
+        <Project date={item.date} heading={item.heading} text={item.text} stack1={item.stack1} stack2={item.stack2} stack3={item.stack3} img1={item.img1} img2={item.img2} key={item.id}/>
+      ))}
 
 
-          </div>
-        </div>
-
-        <div className='imgBox'>
-          <img src={MBB} alt="" className='boxImg'/>
-          <img src={MBBM} alt="" className='boxImg2'/>
-          <a href="http://"></a>
-
-        </div>
-        </div>
-
-        <div className='projectWrap'>
-        <div className='projectBox'>
-          <h6 className='date'>Oct - Dec 2022</h6>
-          <h1 className='companyName'>Easy Rent</h1>
-          <p className='writeUp'>I collaborated with team of front end developers, product designer, back end and product manager to design easy rent application with React.js.</p>
-
-          <a href="https://www.easy-rentt.vercel.app/" className='linkCarrier'>
-          <p className='visitLink'> Visit Link</p>
-          </a>
-          <div className='frameWork'>
-
-            <p className='workings'>React</p>
-            <p className='workings'>CSS</p>
-            <p className='workings'>JSX</p>
-
-
-          </div>
-        </div>
-
-        <div className='imgBox'>
-          <img src={Easyrent} alt="" className='boxImg'/>
-          <img src={Easyrentmobile} alt="" className='boxImg2'/>
-
-        </div>
-        </div>
-
-        <div className='projectWrap'>
-        <div className='projectBox'>
-          <h6 className='date'>September 2022</h6>
-          <h1 className='companyName'>Tom Purse</h1>
-          <p className='writeUp'>I implement user interface design and solve user problems of financial banking with React.js.</p>
-
-          <a href="https://www.tomspurse.vercel.app/" className='linkCarrier'>
-          <p className='visitLink'> Visit Link</p>
-          </a>
-          <div className='frameWork'>
-
-            <p className='workings'>React</p>
-            <p className='workings'>CSS</p>
-            <p className='workings'>JSX</p>
-
-
-          </div>
-        </div>
-
-        <div className='imgBox'>
-          <img src={Tompurse} alt="" className='boxImg'/>
-          <img src={Tompursemobile} alt="" className='boxImg2'/>
-
-        </div>
-        </div>
-
-
-        <div className='projectWrap'>
-        <div className='projectBox'>
-          <h6 className='date'>Jan 2023</h6>
-          <h1 className='companyName'>Ehya</h1>
-          <p className='writeUp'>I implement user interface design and solve user problems with HTML, CSS and Javascript.</p>
-
-          <a href="https://www.ehya.vercel.app/" className='linkCarrier'>
-          <p className='visitLink'> Visit Link</p>
-          </a>
-          <div className='frameWork'>
-
-            <p className='workings'>HTML</p>
-            <p className='workings'>CSS</p>
-            <p className='workings'>JS</p>
-
-
-          </div>
-        </div>
-
-        <div className='imgBox'>
-          <img src={Ehya} alt="" className='boxImg'/>
-          <img src={Ehyamobile} alt="" className='boxImg2'/>
-
-        </div>
-        </div>
-
-
-        <div className='projectWrap'>
-        <div className='projectBox'>
-          <h6 className='date'>July 2022</h6>
-          <h1 className='companyName'>Afrosound</h1>
-          <p className='writeUp'>I implement user interface design and solve user problems with HTML and CSS.</p>
-
-          <a href="https://www.afrosound.vercel.app/" className='linkCarrier'>
-          <p className='visitLink'> Visit Link</p>
-          </a>
-          <div className='frameWork'>
-
-            <p className='workings'>HTML</p>
-            <p className='workings'>CSS</p>
-            {/* <p className='workings'>JSX</p> */}
-
-
-          </div>
-        </div>
-
-        <div className='imgBox'>
-          <img src={Afrosound} alt="" className='boxImg'/>
-          <img src={Afromobile} alt="" className='boxImg2'/>
-
-        </div>
-        </div>
 
      </section>
 
