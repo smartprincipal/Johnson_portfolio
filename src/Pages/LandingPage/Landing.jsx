@@ -16,7 +16,7 @@ import Twitter from '../../asset/twitter-icon.svg'
 import Linkedin from '../../asset/linkedin.svg'
 import Johnsonn from '../../asset/Johnsonn.jpg'
 import Email from '../../asset/email.svg'
-import Oluwayemi from '../../asset/Johnson-Resume.pdf'
+import Oluwayemi from '../../asset/Oluwayemi-Resume.pdf'
 import DownloadIcon from '../../asset/downloadicon.svg'
 import MBB from '../../asset/MBBPIL.PNG'
 import Afrosound from '../../asset/Afrosound.PNG'
@@ -28,6 +28,8 @@ import Easyrentmobile from '../../asset/Easymobile.PNG'
 import Ehyamobile from '../../asset/Ehyamobile.PNG'
 import Tompursemobile from '../../asset/Tommobile.PNG'
 import Afromobile from '../../asset/Afromobile.PNG'
+import Tailwind from '../../asset/tailwind.png'
+
 import { Link } from 'react-router-dom'
 import Project from '../../Components/Project/Project'
 
@@ -38,7 +40,7 @@ const handleToggle = () => {
   return setToggle(prevToggle =>!prevToggle)
 }
 const logo =[
-Html , CSS3, Javascript, Reacts, Bootstrap,Mui, Github, Redux
+Html , CSS3, Javascript, Reacts, Bootstrap,Mui, Github, Redux, Tailwind
 ]
 
 const projectData =[
@@ -87,7 +89,7 @@ const projectData =[
       <div className="content">
       <p className='I'>I'm</p>
       <h1 className='contentHead'>JOHNSON OLUWAYEMI,</h1>
-      <p className='frontend'>A Front-end Engineer keen at designing and developing tools that make people's lives simple.</p>
+      <p className='frontend'> Front-End Developer with a proven ability to collaborate effectively with senior developers while spending extra time to be mentored. </p>
       <a href='#section3'>
       <button className='btn2'>See My Project</button>
       </a>
@@ -119,9 +121,10 @@ const projectData =[
         Hi, I'm Johnson Oluwayemi
         </h3>
         <p className='aboutContent'>
-        I am a passionate front-end developer with one year experience creating responsive and engaging websites. I have a strong focus on user experience and design, and I strive to create visually appealing and easy-to-use interfaces. <br />
+        I am a passionate front-end developer with one year experience creating responsive and engaging websites with a proven ability to collaborate effectively with senior developers while spending extra time to be mentored.  I have a strong focus on user experience and design, and I strive to create visually appealing and easy-to-use interfaces. <br />
+        Enjoy working closely with team members to ensure workloads are effectively redirected to bottlenecks and personally picking up the slack when necessary.
 
-My skills include proficiency in HTML, CSS, JavaScript, and framework such as React. I am also experienced in using version control tools like Git. <br />
+My skills include proficiency in HTML, CSS, JavaScript tailwind CSS, and framework such as Reactjs and typescript. I am also experienced in using version control tools like Git. <br />
 
 In my free time, I enjoy exploring new technologies, attending meetups, and reading about web design trends. I believe in continuous learning and always seek to improve my skills and stay up to date with the latest developments in the field. <br />
 <strong>

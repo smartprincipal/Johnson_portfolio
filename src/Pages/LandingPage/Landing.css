@@ -20,7 +20,7 @@
 }
 .logo{
  text-decoration: none;
- color: gold;
+ color: black;
  font-size: 30px;
  font-weight: bolder;
 }
@@ -54,8 +54,8 @@
 
 .menu-list {
   text-decoration: none;
-  margin-left: 2.5rem;
-  color: gold;
+  margin-left: 3rem;
+  color: black;
   font-weight: bolder;
 }
 
@@ -65,13 +65,14 @@
 .btn1{
  margin-left: 2rem;
  /* background: linear-gradient(278.21deg, #005490 1.66%, #328BCB 96.78%); */
- background-color: transparent;
+ background-color: gold;
 border-radius: 20px;
 padding: 0.7rem;
 border: 2px solid gold;
 width: 95px;
 height: 38px;
-color: #fff;
+color: black;
+font-weight: 700;
 }
 
 .landing-menu{
@@ -132,10 +133,12 @@ font-weight: 500;
 line-height: 35px;
 letter-spacing: 0em;
 /* text-align: left; */
-color: #fff;
+color: black;
 background-color: gold;
 cursor: pointer;
 margin-top: 20px;
+border: none;
+font-weight: 700;
 }
 .worked{
  justify-content: center;
@@ -189,7 +192,7 @@ padding-bottom: 50px;
  font-size: 32px
 }
 .aboutContent{
- max-width: 550px;
+ max-width: 750px;
  text-align: left;
  font-size: 16px;
  line-height: 30px;
