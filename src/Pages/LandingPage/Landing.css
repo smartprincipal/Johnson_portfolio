@@ -223,7 +223,7 @@ padding-bottom: 50px;
 .section3{
  background-color: #1B262C;
  /* height: 600px; */
- padding-bottom: 80px;
+ padding-bottom: 180px;
  padding-top: 30px;
  color: #fff;
  text-align: left;
@@ -476,10 +476,15 @@ background-size: cover;
 .content{
  padding-left: 15px;
  padding-right: 15px;
- margin-top: 25px;
+ margin-top: 15px;
+ 
 }
 .contentHead{
  font-size: 32px;
+}
+.frontend{
+line-height: 24px;
+
 }
 .section2{
  padding: 30px 20px 25px 20px;
@@ -492,6 +497,9 @@ background-size: cover;
 }
 .projectWrap{
  gap: 30px;
+ padding-top: 80px;
+ margin-left: auto;
+margin-right: auto;
 }
 .boxImg{
  display: none;

@@ -1,15 +1,6 @@
 import React from 'react'
 import './Project.css'
-import MBB from '../../asset/MBBPIL.PNG'
-import Afrosound from '../../asset/Afrosound.PNG'
-import Ehya from '../../asset/Ehyaa.PNG'
-import Easyrent from '../../asset/Easyrent.PNG'
-import Tompurse from '../../asset/Tompurse.PNG'
-import MBBM from '../../asset/Mbbmobile.PNG'
-import Easyrentmobile from '../../asset/Easymobile.PNG'
-import Ehyamobile from '../../asset/Ehyamobile.PNG'
-import Tompursemobile from '../../asset/Tommobile.PNG'
-import Afromobile from '../../asset/Afromobile.PNG'
+
 
 const Project = ({date,Link,heading,stack1,stack2,stack3, text, img1,img2}) => {
  
